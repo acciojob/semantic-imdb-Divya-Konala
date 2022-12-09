@@ -3,6 +3,13 @@
 *{
     /* border: 1px solid black; */
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: yellow;
+}
 #bigDiv{
     background-color: black;
     color: white;
@@ -43,7 +50,7 @@ main>div{
 #quote{
     padding-left: 30px;
 }
-#quote>li{
+#quote>div>li{
     padding: 10px;
     font-size: 25px;
     font-style: italic;
